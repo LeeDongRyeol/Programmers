@@ -1,5 +1,15 @@
 package dfsAndBfs;
 
+/**
+ * https://programmers.co.kr/learn/courses/30/lessons/43165?language=java
+ * 
+ * 타겟넘버
+ * 
+ * 백트래킹을 이용하여 풀려하였으나 시간초과 발생
+ * 
+ * BFS를 이용하면 손쉽게 풀 수 있음
+ */
+
 import java.util.LinkedList;
 import java.util.Queue;
 
