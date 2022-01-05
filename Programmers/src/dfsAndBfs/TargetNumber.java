@@ -35,15 +35,12 @@ class Solution {
 	}
 	
     public int solution(int[] numbers, int target) {
-        int answer = 0;
         check = new boolean[numbers.length];
         numArr = numbers.clone();
 //        dfs(numbers.length, 0, target, 0);
         bfs(numbers.length, target);
         
-        answer = cnt;
-        
-        return answer;
+        return cnt;
     }
     
     public void bfs(int n, int target) {
