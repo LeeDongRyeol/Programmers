@@ -1,4 +1,4 @@
-package combination.vowelDictionary;
+package recursive.vowelDictionary;
 
 public class VowelDictionary {
 	public static void main(String[] args) {
